@@ -1,6 +1,6 @@
 import React from 'react';
 import HeroImage from "../assets/heroImage.png"
-import { MdOutlineArrowRightAlt } from "react-icons/md"
+import { MdOutlineArrowRight } from "react-icons/md"
 const Home = () => {
   return (
     <div name="home"
@@ -15,13 +15,15 @@ const Home = () => {
           <div>
             <button className='text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
               Portfolio
-              <MdOutlineArrowRightAlt />
+              <span className='hover:rotate-90 duration-300 '>
+                <MdOutlineArrowRight size={25} className="ml-1" />
+              </span>
             </button>
           </div>
         </div>
         <div>
           <img src={HeroImage} alt="my profile pic "
-            className='rounded-2xl mx-auto w-2/3 ' />
+            className='rounded-2xl mx-auto w-2/3 md:w-200' />
         </div>
       </div>
     </div>
