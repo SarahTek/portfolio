@@ -10,7 +10,7 @@ const Home = () => {
         <div className='flex flex-col justify-center h-full'>
           <h2 className='text-4xl sm:text-7xl font-bold text-white'> I'm a Frontend Developer</h2>
           <p className='text-gray-500 py-4 max-w-md'>
-            Hi everyone, my name is Sarah Teklemariam and I am a software developer. I have a diverse background, having worked as a nurse assistant and in customer service for over 7 years. I also have a business degree. Despite my non-technical background, I discovered a passion for coding when I first learned HTML and CSS in 2021. Since then, I have dedicated myself to improving my skills and have even joined Code Fellows to further my education. In addition to my technical skills, I also have experience working with people and am proficient in English as a second language. I am seeking a job as a software developer and believe that my diverse background, dedication to learning, and problem-solving abilities make me a strong candidate for any team.
+            Hi everyone, my name is Sarah Teklemariam and I am a software developer. I have a diverse background, having worked as a nurse assistant and in customer service for over 7 years. I also have a business degree. Despite my non-technical background, I discovered a passion for coding when I first learned HTML and CSS in 2021. Since then, I have dedicated myself to improving my skills and have even joined Code Fellows to further my education.
 
           </p>
           <div>
