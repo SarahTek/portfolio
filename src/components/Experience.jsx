@@ -6,11 +6,11 @@ import reactImage from '../assets/react.png';
 import tailwind from '../assets/tailwind.png';
 import node from '../assets/node.png';
 import github from '../assets/github.png';
-import mui from '../assets/mui.png';
 import aws from '../assets/aws.png';
 import mongodb from '../assets/mongodb.png';
-import auth0 from '../assets/auth0.png';
-import netlify from '../assets/netlify.png';
+// import mui from '../assets/mui.png';
+// import auth0 from '../assets/auth0.png';
+// import netlify from '../assets/netlify.png';
 
 
 const Experience = () => {
@@ -59,9 +59,9 @@ const Experience = () => {
     },
     {
       id: 8,
-      src: mui,
-      title: "Material UI",
-      style: 'shadow-sky-500'
+      src: mongodb,
+      title: "MongoDB",
+      style: 'shadow-green-500'
     },
     {
       id: 9,
@@ -69,24 +69,24 @@ const Experience = () => {
       title: "AWS",
       style: 'shadow-gray-500'
     },
-    {
-      id: 10,
-      src: mongodb,
-      title: "MongoDB",
-      style: 'shadow-green-500'
-    },
-    {
-      id: 11,
-      src: auth0,
-      title: "Auth0",
-      style: 'shadow-gray-500'
-    },
-    {
-      id: 12,
-      src: netlify,
-      title: "Netlify",
-      style: 'shadow-gray-500'
-    },
+    // {
+    //   id: 10,
+    //   src: mui,
+    //   title: "Material UI",
+    //   style: 'shadow-sky-500'
+    // },
+    // {
+    //   id: 11,
+    //   src: auth0,
+    //   title: "Auth0",
+    //   style: 'shadow-gray-500'
+    // },
+    // {
+    //   id: 12,
+    //   src: netlify,
+    //   title: "Netlify",
+    //   style: 'shadow-gray-500'
+    // },
   ]
   return (
     <div name='experience' className='bg-gradient-to-b  to-gray-800 from-black w-full h-screen'>
@@ -95,7 +95,7 @@ const Experience = () => {
           <p className='text-4xl font-bold p-2 inline border-b-4 border-gray-500'>Experience</p>
           <p className='py-6'>Technologies I have worked with</p>
         </div>
-        <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
+        <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center  px-12 sm:px-0'>
           {
             lan.map(({ id, src, title, style }) => (
               <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
