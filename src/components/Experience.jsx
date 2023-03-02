@@ -6,6 +6,11 @@ import reactImage from '../assets/react.png';
 import tailwind from '../assets/tailwind.png';
 import node from '../assets/node.png';
 import github from '../assets/github.png';
+import mui from '../assets/mui.png';
+import aws from '../assets/aws.png';
+import mongodb from '../assets/mongodb.png';
+import auth0 from '../assets/auth0.png';
+import netlify from '../assets/netlify.png';
 
 
 const Experience = () => {
@@ -50,6 +55,36 @@ const Experience = () => {
       id: 7,
       src: github,
       title: "GitHub",
+      style: 'shadow-gray-500'
+    },
+    {
+      id: 8,
+      src: mui,
+      title: "Material UI",
+      style: 'shadow-sky-500'
+    },
+    {
+      id: 9,
+      src: aws,
+      title: "AWS",
+      style: 'shadow-gray-500'
+    },
+    {
+      id: 10,
+      src: mongodb,
+      title: "MongoDB",
+      style: 'shadow-green-500'
+    },
+    {
+      id: 11,
+      src: auth0,
+      title: "Auth0",
+      style: 'shadow-gray-500'
+    },
+    {
+      id: 12,
+      src: netlify,
+      title: "Netlify",
       style: 'shadow-gray-500'
     },
   ]
