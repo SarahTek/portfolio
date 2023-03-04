@@ -7,11 +7,11 @@ const About = () => {
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
         </div>
-        <p className='text-xl mt-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p className='text-xl mt-10'>Hi 👋, My name is Sarah Teklemariam and I am a Frontend developer. I have a diverse background, having worked as a nurse assistant and in customer service for over 10 years. I also have a Bachelors in Business Management. Despite my non-technical background, I discovered a passion for coding when I first learned HTML and CSS in 2021. Since then, I have dedicated myself to improving my skills and have even joined Code Fellows to further my education. </p>
         <br />
 
         <p className='text-xl'>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius dolores delectus ratione sed saepe rerum quas sit facilis dignissimos vel, eos possimus accusamus, et aut non. Quos, doloribus quis praesentium vel molestiae temporibus suscipit quam magnam sunt nostrum eveniet rem voluptas nulla, consectetur voluptatem beatae reiciendis commodi, alias aliquam similique.
+          In addition to my technical skills, I also have experience working with people and am proficient in English as a second language. I am seeking a job as a Frontend Developer and believe that my diverse background, dedication to learning, and problem-solving abilities make me a strong candidate for any team.
         </p>
       </div>
     </div>
